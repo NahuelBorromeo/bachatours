@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header/Header.astro';
+import AboutUs from '../components/Main/AboutUs.astro';
+import BuyTicketsButton from '../components/Buttons/BuyTicketsButton.astro';
+---
+
+<Layout title="HOME | BACHATOURS">
+	<Header />
+	<BuyTicketsButton />
+	<main class="container mx-auto">
+		<section>
+			<h2 class="text-white font-extrabold text-4xl text-center py-10">Upcoming Events</h2>
+			<img src="../../public/assets/BACHATOURS-BANNER.jpg" >
+		</section>
+		<AboutUs />
+	</main>
+</Layout>
